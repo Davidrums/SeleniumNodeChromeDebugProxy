@@ -1,4 +1,4 @@
-FROM selenium/node-chrome-debug:3.0.1-dysprosium
+FROM selenium/node-chrome-debug
 MAINTAINER David Soff <david@soff.nl>
 
 USER root
