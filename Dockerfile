@@ -1,7 +1,9 @@
-FROM selenium/node-chrome-debug
+FROM selenium/node-chrome-debug:3.0.1-dysprosium
 MAINTAINER David Soff <david@soff.nl>
 
 USER root
+
+ENV PROXY_SERVER ""
 
 #=================================
 # Chrome Launch Script Modication
